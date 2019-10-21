@@ -1,19 +1,163 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>LOCAL</title>
-    <meta name="salon services" content="local salon website">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
-    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>LOCAL</title>
+	<meta name="salon services" content="local salon website">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"> -->
+	<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+	<link rel="stylesheet" href="./assets/css/nav.css">
 
 </head>
 
 <body>
-    <section>
+
+	<header class="cd-morph-dropdown">
+		<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+
+		<nav class="main-nav">
+			<ul>
+				<li class="has-dropdown gallery" data-content="about">
+					<a href="#0">About</a>
+				</li>
+
+				<li class="has-dropdown links" data-content="pricing">
+					<a href="#0">Services</a>
+				</li>
+
+				<li class="has-dropdown button" data-content="contact">
+					<a href="#0">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="morph-dropdown-wrapper">
+			<div class="dropdown-list">
+				<ul>
+					<li id="about" class="dropdown gallery">
+						<a href="#0" class="label">About</a>
+
+						<div class="content">
+							<ul>
+								<li>
+									<a href="#1">
+										<em>Bespoke Services</em>
+										<span>Our clients are discerning</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#0">
+										<em>Artisan Results</em>
+										<span>A brief description here</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#0">
+										<em>Title here</em>
+										<span>A brief description here</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#0">
+										<em>Title here</em>
+										<span>A brief description here</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+					<li id="pricing" class="dropdown links">
+						<a href="#0" class="label">Pricing</a>
+
+						<div class="content">
+							<ul>
+								<li>
+									<h2>Services</h2>
+
+									<ul class="links-list">
+										<li><a href="#0">Custom Color</a></li>
+										<li><a href="#0">Branding</a></li>
+										<li><a href="#0">Web Design</a></li>
+										<li><a href="#0">iOS</a></li>
+										<li><a href="#0">Android</a></li>
+										<li><a href="#0">HTML/CSS/JS</a></li>
+										<li><a href="#0">Packaging</a></li>
+										<li><a href="#0">Mobile</a></li>
+										<li><a href="#0">UI/UX</a></li>
+										<li><a href="#0">Prototyping</a></li>
+									</ul>
+								</li>
+
+								<li>
+									<h2>Projects</h2>
+
+									<ul class="links-list">
+										<li><a href="#0">Logo Design</a></li>
+										<li><a href="#0">Branding</a></li>
+										<li><a href="#0">Web Design</a></li>
+										<li><a href="#0">iOS</a></li>
+										<li><a href="#0">Android</a></li>
+										<li><a href="#0">HTML/CSS/JS</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+					<li id="contact" class="dropdown button">
+						<a href="#0" class="label">Contact</a>
+
+						<div class="content">
+							<ul class="links-list">
+								<li><a href="#0">Email</a></li>
+								<li><a href="#0">Phone</a></li>
+							</ul>
+
+							<a href="mailto:conn62@gmail.com" class="btn">Get in Touch</a>
+						</div>
+					</li>
+				</ul>
+
+				<div class="bg-layer" aria-hidden="true"></div>
+			</div> <!-- dropdown-list -->
+		</div> <!-- morph-dropdown-wrapper -->
+	</header>
+
+
+	<main class="cd-main-content">
+
+
+		<video id="introVid" autoplay="autoplay" muted="muted" width="100%" opacity="50%" disablePictureInPicture="null" controlsList="nodownload" loop>
+			<source src="./assets/video/bg-vid-comp.mp4" type="video/mp4">
+		</video>
+
+
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Fluid jumbotron</h1>
+				<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+				</p>
+			</div>
+		</div>
+
+
+
+	</main>
+
+
+
+	<!-- <script src="js/main.js"></script> Resource jQuery --> -->
+
+
+
+	<!-- <section>
         <ul>
             <li class="scroll" data-rate="-8" data-direction="vertical">
                 <h1>LOC</h1>
@@ -25,10 +169,14 @@
                 <h1>SALON</h1>
             </li>
         </ul>
-
-        <!-- <span class="scroll" data-rateY="1" data-rateX="2" data-direction="horizontal"></span> -->
     </section>
 
+
+    <card>
+        <h3>Left card</h3>
+    </card> -->
+
+	<!-- 
     <script>
         window.addEventListener('scroll', function (e) {
 
@@ -55,8 +203,26 @@
                 }
             }
 
-        });
-    </script>
+		});
+		
+
+		
+	</script> -->
+
+	<div id="1">Scroll down to here bro</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<!-- <script>
+		if (!window.jQuery) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+
+
+			
+	</script> -->
+
+
+
+
+	<script src="./assets/js/nav.js"></script>
 </body>
 
 </html>
