@@ -1,11 +1,11 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.2.2",
+    "title": "Local Salon",
+    "name": "local",
+    "version": "1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "Local Salon homepage",
     "keywords": [
         "css",
         "sass",
@@ -14,20 +14,11 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://localislandsalon.com",
+    
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-    },
+    "author": "Surly Design Company",
+    
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
