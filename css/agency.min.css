@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -32,6 +28,18 @@ h6 {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+#videobcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height:auto;
+  width:auto;
+  z-index: -1;
+}
+
 .page-section {
   padding: 100px 0;
   background-color: #190038;
@@ -113,7 +121,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #fed136;
+  background-color: #480758;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
@@ -129,7 +137,9 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #321852;
+  color: #480758;
+  text-shadow: 1px 1px white;
+
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 1.75em;
@@ -173,7 +183,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-image: url(../img/fern.jpg);
+  /* background-image: url(../img/fern.jpg); */
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -207,6 +217,8 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
+    color: #480758;
+    text-shadow: 1px 1px black;
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
@@ -216,6 +228,9 @@ header.masthead .intro-text .intro-heading {
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
   header.masthead .intro-text .intro-heading {
+    color: #480758;
+    
+    text-shadow: 1px 1px black;
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
