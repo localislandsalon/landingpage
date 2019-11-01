@@ -145,7 +145,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
   color: #878588;
-  text-shadow: 0.5px 0.5px #e7e7f3;
+  text-shadow: 0.5px 0.5px #88888a;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 1.75em;
@@ -183,7 +183,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #6b6b6b;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 55px;
@@ -255,10 +255,30 @@ header.masthead .intro-text .intro-heading {
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   }
 }
+
+#cut-h4:hover {
+  color: transparent;
+}
+
+#style-h4:hover {
+  font-family: "Homemade Apple", cursive;
+  font-size: 40px;
+}
+
 .service-heading {
+  font-size: 60px;
+
+  font-family: "Dynalight", cursive;
   margin: 15px 0;
   text-transform: none;
+  color: white;
+  text-shadow: 1px 1px black;
 }
+
+#color-h4:hover {
+  color: rgba(245, 169, 69, 0.644);
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
