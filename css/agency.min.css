@@ -65,6 +65,7 @@ h6 {
 
   /*  */
 }
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -203,12 +204,11 @@ header.masthead .intro-text {
 }
 header.masthead .intro-text .intro-lead-in {
   color: #4f4f50;
-  font-size: 55px;
+  font-size: 35px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: "Dynalight", cursive;
-  object-fit: contain;
   /*  */
 }
 header.masthead .intro-text .intro-heading {
@@ -226,6 +226,7 @@ header.masthead .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
   header.masthead .intro-text .intro-lead-in {
     color: #313031;
     font-family: "Dynalight", cursive;
@@ -247,7 +248,11 @@ header.masthead .intro-text .intro-heading {
       "Homemade Apple", cursive;
   }
 }
-
+@media only screen and (max-width: 480px) {
+  .intro-lead-in {
+    font-size: 35px;
+  }
+}
 #cut-h4:hover {
   color: transparent;
 }
